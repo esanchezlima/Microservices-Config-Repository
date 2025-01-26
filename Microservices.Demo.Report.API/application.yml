@@ -1,3 +1,5 @@
+ServicesUrl:
+    PricingApiUrl: http://Microservices.Demo.Policy.API/api/policy  
 ElasticApm:
     SecretToken: 
     ServerUrls: http://apm-server:8200
