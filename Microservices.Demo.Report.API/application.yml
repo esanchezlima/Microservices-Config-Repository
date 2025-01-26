@@ -1,7 +1,7 @@
 ServicesUrl:
     PricingApiUrl: http://Microservices.Demo.Policy.API/api/policy
-    ProductsServiceURL: "http://Microservices.Monitoring.Products.API/api/products",
-    PoliciesServiceURL: "http://Microservices.Monitoring.Policy.API/api/policies"
+    ProductsServiceURL: http://Microservices.Monitoring.Products.API/api/products,
+    PoliciesServiceURL: http://Microservices.Monitoring.Policy.API/api/policies
 ElasticApm:
     SecretToken: 
     ServerUrls: http://apm-server:8200
