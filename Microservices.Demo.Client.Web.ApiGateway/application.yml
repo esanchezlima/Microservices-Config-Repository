@@ -136,9 +136,9 @@ GlobalConfiguration:
         Host: microservices.demo.discoveryserver
         Port: 8761
     -
-        DownstreamPathTemplate: /api/Report
+        DownstreamPathTemplate: /api/Reports
         DownstreamScheme: http
-        UpstreamPathTemplate: /api/Report
+        UpstreamPathTemplate: /api/Reports
         ServiceName: Microservices.Demo.Report.API
         UpstreamHttpMethod:
             - Get
