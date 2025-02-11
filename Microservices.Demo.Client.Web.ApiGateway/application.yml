@@ -135,21 +135,3 @@ GlobalConfiguration:
         Type: Eureka
         Host: microservices.demo.discoveryserver
         Port: 8761
-    -
-        DownstreamPathTemplate: /api/Reports
-        DownstreamScheme: http
-        UpstreamPathTemplate: /api/Reports
-        ServiceName: Microservices.Demo.Report.API
-        UpstreamHttpMethod:
-            - Get
-        FileCacheOptions: 
-            TtlSeconds: 15
-        AuthenticationOptions:
-            AuthenticationProviderKey: ApiSecurityAuthenticationScheme
- #           AllowedScopes:
- #               -      
-        RouteClaimsRequirement:
-            userType: SALESMAN      
-        DangerousAcceptAnyServerCertificateValidator: true
-        AddHeadersToRequest:
-            AgentLogin: Claims[http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier] > value[0] > |
