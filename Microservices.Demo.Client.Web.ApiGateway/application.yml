@@ -91,6 +91,8 @@ Routes:
         UpstreamHttpMethod: 
             - Post,
             - Get
+        FileCacheOptions: 
+            TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
 #            AllowedScopes:
