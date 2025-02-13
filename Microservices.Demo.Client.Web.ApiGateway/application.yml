@@ -32,7 +32,6 @@ Routes:
         ServiceName: Microservices.Demo.Auth.API
         UpstreamHttpMethod:
             - Post
-            - Get
         FileCacheOptions: 
             TtlSeconds: 15        
         DangerousAcceptAnyServerCertificateValidator: true
@@ -91,6 +90,7 @@ Routes:
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
             - Post
+            - Get
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
 #            AllowedScopes:
