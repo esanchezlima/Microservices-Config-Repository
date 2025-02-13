@@ -89,7 +89,7 @@ Routes:
         UpstreamPathTemplate: /api/Policies
         ServiceName: Microservices.Demo.Policy.API
         UpstreamHttpMethod: 
-            - Get
+            - Post
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
 #            AllowedScopes:
