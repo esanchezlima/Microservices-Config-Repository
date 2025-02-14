@@ -13,7 +13,7 @@ RabbitMQSettings:
     PublishConfirmTimeout: 1
     RecoveryInterval: 1
     PersistentDeliveryMode: true
-    AutoCloseConnection: true
+    AutoCloseConnection: false
     AutomaticRecovery: true
     TopologyRecovery: true
 ElasticApm:
