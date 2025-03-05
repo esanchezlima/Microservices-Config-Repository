@@ -127,7 +127,6 @@ Routes:
         RouteClaimsRequirement: 
             userType: SALESMAN   
         DangerousAcceptAnyServerCertificateValidator: true 
-
    -
         DownstreamPathTemplate: /api/Policies
         DownstreamScheme: http
