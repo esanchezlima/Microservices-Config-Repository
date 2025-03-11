@@ -1,5 +1,5 @@
 ServicesUrl:
-    ProductsServiceURL: http://Microservices.demo.Products.API/api/products,
+    ProductsServiceURL: http://Microservices.demo.Product.API/api/products,
     PoliciesServiceURL: http://Microservices.demo.Policy.API/api/policies
 ElasticApm:
     SecretToken: 
